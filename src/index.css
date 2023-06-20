@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button>svg{
+    margin-right: 5px;
+}
+
+.active{
+    font-style: bold;
+    border-left: 4px solid #2563EB;
+    padding-left: 2px;
+  
+}
