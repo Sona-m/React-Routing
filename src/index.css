@@ -6,9 +6,10 @@ button>svg{
     margin-right: 5px;
 }
 
-.active{
-    font-style: bold;
-    border-left: 4px solid #2563EB;
-    padding-left: 2px;
-  
+.active{ 
+    @apply font-bold pl-2  border-l-4 border-blue-500 flex items-center;  
+}
+
+li{
+    @apply mb-2;
 }
